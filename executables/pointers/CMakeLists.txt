@@ -1,0 +1,2 @@
+add_executable(pointers pointers_main.c)
+target_link_libraries(pointers PRIVATE pointers_lib)

@@ -1,0 +1,14 @@
+add_executable(array_simple array_simple_main.c)
+target_link_libraries(array_simple PRIVATE array_lib)
+
+add_executable(array_rotation array_rotation_main.c)
+target_link_libraries(array_rotation PRIVATE array_lib)
+
+add_executable(stack stack_main.c)
+target_link_libraries(stack PRIVATE stack_lib)
+
+add_executable(circular_queue circular_queue_main.c)
+target_link_libraries(circular_queue PRIVATE queue_lib)
+
+add_executable(singly_linked_list singly_linked_list_main.c)
+target_link_libraries(singly_linked_list PRIVATE linked_list_lib)

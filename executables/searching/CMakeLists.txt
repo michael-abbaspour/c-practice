@@ -1,0 +1,2 @@
+add_executable(binary_search binary_search_main.c)
+target_link_libraries(binary_search PRIVATE searching_lib)
